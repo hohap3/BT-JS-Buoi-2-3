@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>DOM</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- BT 1 : Tính tiền lương nhân viên -->
+      <section class="bt-1">
+        <h2>Bài tập 1 : Tính tiền lương nhân viên</h2>
+
+        <div class="form-group">
+          <div class="input-group">
+            <input
+              type="number"
+              name=""
+              id="salary"
+              placeholder="Nhập lương một ngày"
+            />
+          </div>
+
+          <div class="input-group">
+            <input type="number" name="" id="day" placeholder="Nhập ngày làm" />
+          </div>
+        </div>
+
+        <button class="btn btn-salary">Tính lương</button>
+
+        <div class="result-container">
+          <p class="result">Tổng tiền:</p>
+        </div>
+      </section>
+
+      <!-- BT 2: Tính giá trị trung bình -->
+      <section class="bt-2">
+        <h2>Bài tập 2 : Tính giá trị trung bình</h2>
+
+        <div class="form-group">
+          <div class="input-group">
+            <input
+              type="number"
+              name=""
+              id="number1"
+              placeholder="Nhập số thứ 1"
+            />
+          </div>
+
+          <div class="input-group">
+            <input
+              type="number"
+              name=""
+              id="number2"
+              placeholder="Nhập số thứ 2"
+            />
+          </div>
+
+          <div class="input-group">
+            <input
+              type="number"
+              name=""
+              id="number3"
+              placeholder="Nhập số thứ 3"
+            />
+          </div>
+
+          <div class="input-group">
+            <input
+              type="number"
+              name=""
+              id="number4"
+              placeholder="Nhập số thứ 4"
+            />
+          </div>
+
+          <div class="input-group">
+            <input
+              type="number"
+              name=""
+              id="number5"
+              placeholder="Nhập số thứ 5"
+            />
+          </div>
+        </div>
+
+        <button class="btn btn-avg">Tính trung bình</button>
+
+        <div class="result-container">
+          <p class="result result-avg">Số trung bình:</p>
+        </div>
+      </section>
+
+      <!-- BT 3 : Quy đổi tiền -->
+      <section class="bt-3">
+        <h2>Bài tập 3 : Quy đổi tiền</h2>
+
+        <div class="form-group">
+          <div class="input-group">
+            <input type="number" name="" id="money" placeholder="Nhập số USD" />
+          </div>
+        </div>
+
+        <button class="btn btn-money">Quy đổi tiền</button>
+
+        <div class="result-container">
+          <p class="result result-money">Số tiền:</p>
+        </div>
+      </section>
+
+      <!-- BT 4 : Tính chu vi và diện tích hình chữ nhật -->
+      <section class="bt-4">
+        <h2>Bài tập 4 : Tính chu vi và diện tích hình chữ nhật</h2>
+
+        <div class="form-group">
+          <div class="input-group">
+            <input
+              type="number"
+              name=""
+              id="height"
+              placeholder="Nhập chiều dài"
+            />
+          </div>
+
+          <div class="input-group">
+            <input
+              type="number"
+              name=""
+              id="width"
+              placeholder="Nhập chiều rộng"
+            />
+          </div>
+        </div>
+
+        <button class="btn btn-rectangle">Tính</button>
+
+        <div class="result-container">
+          <p class="result result-rectangle"></p>
+        </div>
+      </section>
+
+      <!-- BT 5: Tính tổng 2 chữ số -->
+      <section class="bt-5">
+        <h2>Bài tập 5 : Tính tổng 2 chữ số</h2>
+
+        <div class="form-group">
+          <div class="input-group">
+            <input
+              type="number"
+              name=""
+              id="num"
+              placeholder="Nhập số có 2 chữ số"
+              min="10"
+              max="99"
+            />
+          </div>
+        </div>
+
+        <button class="btn btn-total">Tính tổng</button>
+
+        <div class="result-container">
+          <p class="result result-total"></p>
+        </div>
+      </section>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
